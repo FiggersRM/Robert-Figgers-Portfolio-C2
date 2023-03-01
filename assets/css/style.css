@@ -1,72 +1,72 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
-    --bgcolor: rgb(139, 139, 139);
-    --headertext: rgb(0, 0, 0);
-    --navlinks: rgb(0, 0, 0);
-    --hovercolor: rgb(32, 190, 56);
+  --bgcolor: rgb(139, 139, 139);
+  --headertext: rgb(0, 0, 0);
+  --navlinks: rgb(0, 0, 0);
+  --hovercolor: rgb(32, 190, 56);
 }
 
 body {
-    font-family: sans-serif;
-    display: flex;
-    flex-direction: column;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 header {
-    background: var(--bgcolor);
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    padding: 1.2%;
+  background: var(--bgcolor);
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 1.2%;
 }
 
 h1 {
-    font-size: 200%;
-    font-family: sans-serif;
-    font-weight: 600;
-    color: var(--headertext);
-    margin-left: 0%;
+  font-size: 200%;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: var(--headertext);
+  margin-left: 0%;
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
 }
 
 nav a {
-    color: var(--navlinks);
-    text-decoration: none;
-    font-weight: bold;
+  color: var(--navlinks);
+  text-decoration: none;
+  font-weight: bold;
 }
 
 nav a:hover {
-    color: var(--hovercolor);
+  color: var(--hovercolor);
 }
 
 main {
-    display: flex;
+  display: flex;
 }
 
 .header-image {
-    width: 100%;
-    display: flex;
-    height: 400px;
-    position: relative;
+  width: 100%;
+  display: flex;
+  height: 400px;
+  position: relative;
 }
 
 .header-image img {
-    width: 100%;
-    height: 400px;
+  width: 100%;
+  height: 400px;
 }
 
-.header-image p{
-    position: absolute;
-    font-size: 200%;
-    bottom: 0px;
-    right: 10px;
-    background: var(--bgcolor);
-    padding: 10px;
+.header-image p {
+  position: absolute;
+  font-size: 220%;
+  bottom: 0px;
+  right: 0px;
+  background: var(--bgcolor);
+  padding: 20px;
 }
