@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --bgcolor: lightblue;
+    --headertext: darkblue;
+    --navlinks: darkblue;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background: var(--bgcolor);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 1.5%;
+}
+
+h1 {
+    font-size: 200%;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: var(--headertext);
+    margin-left: 0%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+nav a {
+    color: var(--navlinks);
+    text-decoration: none;
+    font-weight: bold;
+}
