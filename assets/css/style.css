@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Arial" sans-serif;
 }
 
 header {
@@ -30,8 +30,7 @@ header img {
 }
 
 h1 {
-  font-size: 200%;
-  font-family: sans-serif;
+  font-size: 250%;
   font-weight: 600;
   color: var(--headertext);
   margin-left: 0%;
@@ -60,7 +59,7 @@ a:hover {
 }
 
 main {
-  max-width: 88%;
+  max-width: 90%;
   margin-left: 0;
   margin-right: auto;
 }
