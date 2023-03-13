@@ -203,7 +203,7 @@ main {
   color: var(--hovercolor);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
   body,
   header,
   .bottom {
