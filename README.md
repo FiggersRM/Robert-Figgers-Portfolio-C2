@@ -34,4 +34,4 @@ N/A
 
 Below you will find a screenshot of the application:
 
-![alt text](assets/images/figgersrm.github.io_Robert-Figgers-Portfolio-C2_%20(1).png)
+![alt text](assets/images/figgersrm.github.io_Robert-Figgers-Portfolio-C2_%20(2).png)
