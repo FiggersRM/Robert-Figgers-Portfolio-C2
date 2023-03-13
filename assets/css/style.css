@@ -45,6 +45,7 @@ nav ul {
   display: flex;
   justify-content: space-between;
   min-width: 300px;
+  font-size: 150%;
 }
 
 nav a {
@@ -52,6 +53,7 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   text-decoration: underline;
+  padding: 20px;
 }
 
 a:hover {
