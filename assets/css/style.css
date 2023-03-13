@@ -200,3 +200,17 @@ main {
 .bottom a:hover {
   color: var(--hovercolor);
 }
+
+@media screen and (max-width: 768px) {
+  body,
+  header,
+  .bottom {
+    flex-direction: column;
+  }
+
+  h1,
+  nav {
+    flex-direction: column;
+    padding: 20px;
+  }
+}
